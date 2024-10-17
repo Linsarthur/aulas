@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "id": "e708",
+      "name": "Carro",
+      "price": "50.000",
+      "category": "Tecnologia"
+    }
+  ]
+}
