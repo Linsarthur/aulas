@@ -1,10 +1,10 @@
-interface TitleProps {
-    value: string
-}
-
-
-export function Title(props: TitleProps){ //props sao os 'atributos'
+export function Title(){
     return(
-        <h1>{props.value}</h1>
+        <>
+        <div className="flex bg-zinc-800 justify-center items-center h-24 w-screen text-2xl text-white font-bold gap-2 ">
+        <img src="logo.svg" alt="" className="size-14"/>
+        <h1>Feed Wars</h1>
+        </div>
+        </>
     )
 }
